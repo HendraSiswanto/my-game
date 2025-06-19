@@ -3,9 +3,9 @@ import { Card, CardBody, Skeleton, SkeletonText } from "@chakra-ui/react";
 const GameCardSkeleton = () => {
   return (
     <Card>
-      <Skeleton height="200px" />
+      <Skeleton startColor="#1f1f1f" endColor="#2d2d2d" height="200px" />
       <CardBody>
-        <SkeletonText />
+        <SkeletonText startColor="#1f1f1f" endColor="#2d2d2d" />
       </CardBody>
     </Card>
   );
